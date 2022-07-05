@@ -135,3 +135,8 @@ _autosave-*
 \#auto_saved_files\#
 ```
 </div>
+
+---
+
+Continue to Step 4.5: <br>
+[Syncing Changes](/setup/syncing-changes/){: .btn .btn-purple }

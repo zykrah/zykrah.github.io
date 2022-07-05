@@ -19,3 +19,8 @@ What capacitors look like
 
 ![image](https://www.theengineeringknowledge.com/wp-content/uploads/2020/12/Different-Types-of-Capacitors-and-Uses.jpg)
 </div>
+
+---
+
+Continue: <br>
+[Ground](/basic-knowledge/ground/){: .btn .btn-purple }

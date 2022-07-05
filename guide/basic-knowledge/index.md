@@ -17,3 +17,8 @@ Feel free to come back to this section if there’s some sort of term or concept
 
 If you're ever unsure of a term/concept, search for it in the search bar above!
 {: .code-example }
+
+---
+
+Start here: <br>
+[Voltage, Current, Resistance](/basic-knowledge/vir/){: .btn .btn-purple }

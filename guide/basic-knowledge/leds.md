@@ -22,3 +22,8 @@ WS2812 LEDs up close:
 
 **Note**: Dumb/common anode LEDs require a matrix and dedicated RGB controller chip, whereas ARGB LEDs such as WS2812s have onboard controllers.
 {: .code-example }
+
+---
+
+Continue: <br>
+[PCBs](/basic-knowledge/pcbs/){: .btn .btn-purple }

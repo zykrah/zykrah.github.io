@@ -16,3 +16,7 @@ See: [What is a Diode? - Fluke](https://www.fluke.com/en-au/learn/blog/electrica
 ![image](https://cdn1.byjus.com/wp-content/uploads/2017/10/Diodes-symbol.png)
 </div>
 
+---
+
+Continue: <br>
+[Capacitors](/basic-knowledge/capacitors/){: .btn .btn-purple }

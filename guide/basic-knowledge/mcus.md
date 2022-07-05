@@ -86,7 +86,7 @@ These are some common microcontrollers that keyboards use. I'll discuss the pros
 
 
 
-## MCU Pinouts and Datasheets [WIP]
+## MCU Pinouts and Datasheets
 Want to know more about reading datasheets? [Watch this](https://www.youtube.com/watch?v=9r8JMbHc-xQ).
 {: .code-example }
 
@@ -172,7 +172,8 @@ Some examples of differential pair routing.
 ## EEPROM/Flash Storage
 This storage is used to store information used by/with programs like **VIA/VIAL**. E.g. keymap, layout, macros, etc.
 
-> Note: Not all MCUs support emulating EEPROM on the chip's flash. Some chips require an extra component that acts specifically as an external EEPROM. I'll also discuss this more later.
+**Note**: Not all MCUs support emulating EEPROM on the chip's flash. Some chips require an extra component that acts specifically as an external EEPROM. I'll also discuss this more later.
+{: .code-example }
 
 ---
 
@@ -207,3 +208,8 @@ Keyboard PCBs generally have an ESD chip close to the USB connector. This chip j
 
 ## Polyfuse/Resettable Fuse [WIP]
 A fuse is a component generally found on keyboard PCBs that **ensures the entire circuit doesn't get overwhelmed with current/power**. Polyfuses (**resettable** fuses) are used on keyboard PCBs so that the fuse doesn't have to be replaced if it trips.
+
+---
+
+Continue to the next section of the guide [WIP]: <br>
+[Design Considerations](/basic-knowledge/considerations/){: .btn .btn-purple }

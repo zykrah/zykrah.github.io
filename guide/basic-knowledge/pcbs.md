@@ -40,3 +40,8 @@ Good videos about PCBs (second video is pretty informative)
 * Component “form factors” (packages)
 * Symbols
 * Footprints
+
+---
+
+Continue: <br>
+[USB](/basic-knowledge/usb/){: .btn .btn-purple }

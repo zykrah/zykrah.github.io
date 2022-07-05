@@ -23,3 +23,8 @@ The following video is also useful:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/DVRQoVRzMIY" title="Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+---
+
+Continue to Step 2: <br>
+[Setting up a Git repo](/setup/setup-git/){: .btn .btn-purple }

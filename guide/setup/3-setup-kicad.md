@@ -44,3 +44,8 @@ Note how it shows the changes made on the left.
 
 **You should commit after every important change, in case you ever need to revert.**
 {: .code-example }
+
+---
+
+Continue to Step 4: <br>
+[Installing KiCad libraries](/setup/installing-libraries/){: .btn .btn-purple }

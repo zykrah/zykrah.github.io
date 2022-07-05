@@ -12,3 +12,8 @@ parent: Basic EE Knowledge
 
 - Explanation of grounding, what the purpose is. 
 - Return currents.
+
+---
+
+Continue: <br>
+[LEDs](/basic-knowledge/leds/){: .btn .btn-purple }

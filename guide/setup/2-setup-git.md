@@ -57,3 +57,8 @@ If you go to your repo on the GitHub website, it should look something like this
 ---
 
 Feel free to adjust it how you would like, by modifying the `README.md` or otherwise. For the purposes of this guide, I won’t be bothering.
+
+---
+
+Continue to Step 3: <br>
+[Setting up KiCad](/setup/setup-kicad/){: .btn .btn-purple }

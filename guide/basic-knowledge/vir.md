@@ -22,3 +22,8 @@ I would recommend **at least** understanding these terms/concepts before continu
 - AC Power vs DC Power
 - Electric circuit diagrams
 </div>
+
+---
+
+Continue: <br>
+[Diodes](/basic-knowledge/diodes/){: .btn .btn-purple }
