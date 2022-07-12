@@ -112,7 +112,7 @@ The following diagram is a pinout diagram for the ATMega32u4 (by [hadi](https://
 Good resource: [What is the Use of a Decoupling Capacitor?](https://www.protoexpress.com/blog/decoupling-capacitor-use/)
 {: .code-example }
 
-Decoupling capacitors are used to help provide ICs with a **steady voltage/supply of power**. MCUs, for example, are an IC that require a steady voltage to protect the sensitive circuitry inside. **EMI** can cause noise throughout the PCB/circuit and lead to an unsteady voltage. By placing decoupling capacitors close to the controller, they can effectively **reduce noise** by creating a small power loop. Supplementary power is supplied when the voltage drops too low and excess power is absorbed when voltage is too high.
+Decoupling capacitors are used to help provide ICs with a **steady voltage and supply of power**. Often when an MCU is making strenuous calculations, a great number of its transistors are switching on or off. The current needed to change the transistor state and the inrush of current through a transistor decrease the supply voltage. Each transistor contributes to this decrease in voltage. Although electricity moves very quickly, the speed of modern MCUs may cause the voltage of the MCU to fall faster than the power supply can react. Changes in voltage (AKA "noise"), if allowed to grow too large, can exceed limits on valid inputs to the MCU. This undefined behavior will prevent the MCU from working properly. By placing decoupling capacitors close to the controller, they can effectively **reduce noise** by creating a "sink" for noise to pass harmlessly to ground and also provide supplementary current to the MCU when needed. 
 
 **Placement/routing of decoupling capacitors is important. Correct placement and routing allows them to properly fulfil their role/purpose**. While the chances are low, controllers may not function correctly if supplied voltage is too unstable. There are many resources online regarding decoupling capacitor placement/routing (one is linked above), but **I’ll be going over how you should layout them later on** (specifically for the MCU we will be using in this guide). 
 {: .code-example }
@@ -123,8 +123,10 @@ Placed close to the MCU, one **100nF capacitor for each VCC (power) pin** is gen
 {: .code-example }
 
 The following image demonstrates an electrical diagram of how a decoupling capacitor is connected and reduces noise (less voltage fluctuation):
-
 ![image](https://user-images.githubusercontent.com/23428162/151749424-4338ed54-bdc3-44ef-a52f-5d48936d0e8a.png)
+
+For more information on decoupling capacitors, refer to the following video by Dave of EEVblog.
+![video](https://www.youtube.com/watch?v=BcJ6UdDx1vg)
 
 ---
 
@@ -139,7 +141,7 @@ Resonators can also be used to provide a clock to the MCU.
 
 Oscillators/resonators connect to 2 pins on the MCU: **XTAL1 and XTAL2**. Hence, the traces connecting them are generally referred to as XTAL traces.
 
-Due to the high frequency nature of crystal oscillators/resonators/XTAL traces, they are **prone to EMI** and should be traced carefully to ensure proper operation. Traces should be **short and uninterrupted**. This generally means placing the crystal **close to the MCU** and routing the XTAL traces **before** other traces like GND. 
+Due to the high frequency nature of crystal oscillators/resonators/XTAL traces, they are **prone to induce EMI in other components** and should be traced carefully to ensure proper operation. Traces should be **short and uninterrupted**. This generally means placing the crystal **close to the MCU** and routing the XTAL traces **before** other traces like GND. 
 
 <div class="code-example" markdown="1">
 What crystal oscillators can look like:
