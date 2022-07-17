@@ -212,4 +212,4 @@ A fuse is a component generally found on keyboard PCBs that **ensures the entire
 ---
 
 Continue to the next section of the guide [WIP]: <br>
-[Design Considerations](/basic-knowledge/considerations/){: .btn .btn-purple }
+[Design Considerations](/considerations/){: .btn .btn-purple }
