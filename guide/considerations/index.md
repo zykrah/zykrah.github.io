@@ -98,7 +98,7 @@ For now, I'll continue...
     * **CONS**: Can be highly confusing to choose a chip ([see here for more info](http://acheronproject.com/joker_mcus/joker/)), availablity is patchy, more complex than a 32u4 (you have to deal with a voltage regulator/stepdown, as the chip runs on 3v3 and 1v1), more complex routing
   * **RP2040**
     * **PROS**: really cheap (1-2 USD), ARM, new, lots of flash storage, easy to flash, readily available on JLC
-    * **CONS**: official QMK support only exists in [develop branch](https://github.com/qmk/qmk_firmware/tree/develop) (support in `master` will be merged Q3 2022), only QFN (cant hand solder), requires external flash (though you have up to 16MB), more complex than a 32u4 (you have to deal with a voltage regulator/stepdown, as the chip runs on 3v3 and 1v1), more complex routing
+    * **CONS**: ~~official QMK support only exists in [develop branch](https://github.com/qmk/qmk_firmware/tree/develop) (support in `master` will be merged Q3 2022)~~ (EDIT: QMK support has been recently added), only QFN (cant hand solder), requires external flash (though you have up to 16MB), more complex than a 32u4 (you have to deal with a voltage regulator/stepdown, as the chip runs on 3v3 and 1v1), more complex routing
 
 NOTE: 'Pro micro'-like controllers have varying chips too (the real pro-micro has a 32u4).
 {: .code-example }
