@@ -42,6 +42,8 @@ As for what QMK is (in general), as per the [official site](https://docs.qmk.fm/
 QMK (Quantum Mechanical Keyboard) is an open source community centered around developing computer input devices. The community encompasses all sorts of input devices, such as keyboards, mice, and MIDI devices. A core group of collaborators maintains QMK Firmware, QMK Configurator, QMK Toolbox, qmk.fm...
 {: .code-example }
 
+**Links to:** QMK official [website](https://qmk.fm/), [documentation](https://docs.qmk.fm/#/), [github repository](https://github.com/qmk/qmk_firmware), and [discord server](https://discord.com/invite/Uq7gcHh).
+
 ---
 
 ### What does QMK Configurator do?
@@ -57,6 +59,10 @@ However, if you want to __dynamically remap__ your keyboard, you can make use of
 VIA is a piece of **software**. In essence, it's a program that runs on your computer. All it does is __communicate__ to the firmware (QMK) on your keyboard to tell it to do things, i.e. remap keys, change lighting, etc. This means the __changes you make are stored on the keyboard itself__.
 
 VIA was popularised a few years back. It was made separate from QMK, but QMK eventually added official support for the VIA protocol. This also means that the VIA and QMK development teams are separate.
+
+VIA has recently gone through many changes, transitioning from [V2 to V3](https://www.caniusevia.com/docs/v3_changes). In the past, VIA has commonly been used as a desktop application. Nowadays, you can either use the [website](https://usevia.app/), or alternatively the [NEW desktop application](https://github.com/the-via/releases/releases).
+
+**Links to:** VIA official [website](https://www.caniusevia.com/), [documentation](https://www.caniusevia.com/docs/specification), [list of precompiled firmware](https://www.caniusevia.com/docs/download_firmware), and [app source code](https://github.com/the-via/app) (app downloads linked above). For VIA support, head to the [QMK discord server](https://discord.com/invite/Uq7gcHh).
 
 <div class="code-example" markdown="1">
 <a id="via_detection"></a>
@@ -94,10 +100,13 @@ Notably:
 __To utilise the extra features that VIAL offers, you need to flash a modified version (i.e. a fork) of QMK onto your keyboard.__
 
 NOTE: This fork of QMK is **unofficial**, meaning the QMK developers have nothing to do with it. Please don't go to the QMK server asking for VIAL help. There is a dedicated VIAL server.
+{: .code-example }
+
+**Links to:** VIAL official [website](https://get.vial.today/), [app download](https://get.vial.today/download/), [github repository](https://github.com/vial-kb/vial-qmk), [documentation](https://get.vial.today/docs/), and [discord server](https://discord.gg/zNKEUXTKwF). There is also an [unofficial site with pre-compiled VIAL firmware](https://keyboard.gay/).
 
 ---
 
-# So how do I write firmware?
+# So how do I get firmware onto my keyboard?
 
 This will come down to what you're starting with.
 
@@ -200,6 +209,16 @@ If there is also a `vial` folder in the `keymaps` folder, that means your keyboa
 Unfortunately, QMK does not officially support a lot of the MCUs that cheaper OEM keyboards (e.g. Redragon, Keychron K/S-series, Ajazz, Womier) typically use.
 
 However, you can look into [SonixQMK](https://github.com/SonixQMK).
+
+---
+
+## Extra Tools and Firmware scripts
+
+I have a [site](https://zykrah.me/) for making the generation of QMK and VIAL firmware files easier/faster (e.g. `config.h`, `info.json`, `vial.json`, `keymap.c`). It converts a single KLE into all those files. It requires a bit of firmware-writing knowledge to use. Make sure you read the [documentation](https://github.com/zykrah/firmware-scripts).
+
+Xelus also has some [tools for firmware](https://xelus.netlify.app/guides) (`KLE -> RGB`, `KLE -> VIA`, `Layout Macro generator`).
+
+Jels also has a similar [firmware generator](https://jels02.github.io/kicad2qmk/) in the works that converts a KiCAD project into QMK firmware. This hasn't been tested for more complex layouts so be weary.
 
 ---
 
