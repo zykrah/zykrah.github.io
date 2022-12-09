@@ -186,6 +186,11 @@ In essence, to add VIA support to a keyboard already in the official QMK reposit
 - A via json file that you can use to get VIA to recognise your keyboard
 </div>
 
+Side note: VIAL documentation has a [decent guide for creating the VIA json](https://get.vial.today/docs/porting-to-via.html).
+{: .code-example }
+
+See [section on extra tools](#extra-tools-and-firmware-scripts) if you want a faster/less-tedious method for generating a `via.json` (the site says `vial.json` but you can mostly use the same json for VIA too).
+
 **wip... Link to separate page for adding VIA support**
 
 ---
@@ -199,6 +204,10 @@ If your keyboard does have VIA support, you'll need to find the source code for 
 Since VIAL requires a fork of QMK, when [setting up your environment](), you will have to actually use the `vial-qmk` [repository](https://github.com/vial-kb/vial-qmk) instead of the normal `qmk_firmware` repository. The `vial-qmk` repository is generally kept up-to-date with `qmk_firmware`, meaning you should also be able to find your keyboard in `vial-qmk`, along with it's `via` keymap folder. 
 
 If there is also a `vial` folder in the `keymaps` folder, that means your keyboard has already been ported to VIAL, and you can simply skip this section and compile and flash the vial firmware **[WIP: link to guide for compiling and flashing]** to use VIAL.
+
+Official [VIAL porting guide](https://get.vial.today/docs/porting-to-vial.html).
+
+See [section on extra tools](#extra-tools-and-firmware-scripts) if you want a faster/less-tedious method for generating a `vial.json` and `config.h`.
 
 **wip... Link to separate page for porting to VIAL**
 
