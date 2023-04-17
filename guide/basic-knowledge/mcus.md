@@ -109,7 +109,7 @@ The following diagram is a pinout diagram for the ATMega32u4 (by [hadi](https://
 
 ## Decoupling Capacitors
 
-Good resource: [What is the Use of a Decoupling Capacitor?](https://www.protoexpress.com/blog/decoupling-capacitor-use/)
+Good resource: [The basics of decoupling capacitors](https://lcamtuf.substack.com/p/the-basics-of-decoupling-capacitors) (I **really recommend** giving this one a read), [What is the Use of a Decoupling Capacitor?](https://www.protoexpress.com/blog/decoupling-capacitor-use/)
 {: .code-example }
 
 Decoupling capacitors are used to help provide ICs with a **steady voltage/supply of power**. MCUs, for example, are an IC that require a steady voltage to protect the sensitive circuitry inside. **EMI** can cause noise throughout the PCB/circuit and lead to an unsteady voltage. By placing decoupling capacitors close to the controller, they can effectively **reduce noise** by creating a small power loop. Supplementary power is supplied when the voltage drops too low and excess power is absorbed when voltage is too high.
