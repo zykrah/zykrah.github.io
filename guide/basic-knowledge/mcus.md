@@ -101,9 +101,9 @@ A **MCU pinout** is a term used to refer to any piece of information that explai
 Note: All components have datasheets and pinouts, not just microcontrollers. 
 {: .code-example }
 
-The following diagram is a pinout diagram for the ATMega32u4 (by [hadi](https://www.youtube.com/watch?v=vLGklanzQIc)):
+The following diagram is a pinout diagram for the ATMega32u4 (by [14core](https://www.14core.com/)):
 
-![image](https://user-images.githubusercontent.com/23428162/153748452-d62ba294-e3b3-471b-a16b-3ec3253259ac.png)
+![image](https://www.14core.com/wp-content/uploads/2015/06/atmel-atmega32u4-pinout-diagram.png)
 
 ---
 
