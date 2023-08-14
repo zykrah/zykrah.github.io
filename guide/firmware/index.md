@@ -3,7 +3,7 @@ layout: default
 title: Firmware
 permalink: /firmware/
 nav_order: 9
-# has_children: true
+has_children: true
 ---
 
 # Firmware
@@ -12,7 +12,7 @@ This will be my attempt to cover most of the basics for writing QMK firmware for
 
 WIP: split into sections
  1. Intro, common misconceptions, figuring out what you need
- 2. Setting up QMK environment
+ 2. [Setting up QMK environment](/firmware/environment)
  3. Modifying various QMK settings, creating required QMK files
  4. Compiling and flashing
  5. Extra, usage and other tips
@@ -134,7 +134,7 @@ This will involve a bit of Git. Git is generally better to use than just downloa
 
 QMK have an [official guide for setting up an environment](https://docs.qmk.fm/#/newbs_getting_started), but it can be a little confusing.
 
-**WIP... clearer setup guide for vanilla qmk/via, and vial; and explanation of how qmk environment works**
+You can access [my run-down on setting up a QMK environment here](/firmware/environment).
 
 ---
 
