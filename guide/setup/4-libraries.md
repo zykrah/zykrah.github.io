@@ -57,7 +57,7 @@ Then open the `.gitmodules` file and edit it as following:
 [submodule "marbastlib"]
     path = marbastlib
     url = https://github.com/ebastler/marbastlib
-    branch = untested
+    branch = v6-untested
 ```
 Then run `git submodule update --init --remote`.
 

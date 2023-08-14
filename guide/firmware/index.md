@@ -42,7 +42,7 @@ As for what QMK is (in general), as per the [official site](https://docs.qmk.fm/
 QMK (Quantum Mechanical Keyboard) is an open source community centered around developing computer input devices. The community encompasses all sorts of input devices, such as keyboards, mice, and MIDI devices. A core group of collaborators maintains QMK Firmware, QMK Configurator, QMK Toolbox, qmk.fm...
 {: .code-example }
 
-**Links to:** QMK official [website](https://qmk.fm/), [documentation](https://docs.qmk.fm/#/), [github repository](https://github.com/qmk/qmk_firmware), and [discord server](https://discord.com/invite/Uq7gcHh).
+**Links to:** QMK official [website](https://qmk.fm/), [documentation](https://docs.qmk.fm/#/), [github repository](https://github.com/qmk/qmk_firmware), [pre-compiled firmware](https://qmk.tzarc.io/) and [discord server](https://discord.com/invite/Uq7gcHh).
 
 ---
 
